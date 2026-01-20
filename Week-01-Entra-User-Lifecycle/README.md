@@ -205,14 +205,16 @@ Peter's group memberships now reflect Finance role - IT access removed, Finance 
 <tr>
 <td width="50%">
 
-![Pre-Offboarding](screenshots/10-leaver-pre-offboarding-state.png)
+<img src="screenshots/10-leaver-pre-offboarding-state.png" alt="Pre-Offboarding Audit" />
+
 **Step 1: Pre-Offboarding Audit**  
 Peter's current state documented - group memberships, profile info, recent activity
 
 </td>
 <td width="50%">
 
-![Account Disabled](screenshots/11-leaver-account-disabled.png)
+<img src="screenshots/11-leaver-account-disabled.png" alt="Account Disabled" />
+
 **Step 2: Account Disabled**  
 Peter Parker's account status changed to "Disabled" - immediate access revocation
 
@@ -221,14 +223,16 @@ Peter Parker's account status changed to "Disabled" - immediate access revocatio
 <tr>
 <td width="50%">
 
-![Groups Removed](screenshots/12-leaver-groups-removed.png)
+<img src="screenshots/12-leaver-groups-removed.png" alt="Groups Removed" />
+
 **Step 3: Access Revoked**  
 All of Peter's security group memberships removed - Finance and All-Employees access terminated
 
 </td>
 <td width="50%">
 
-![Notes Added](screenshots/13-leaver-notes-added.png)
+<img src="screenshots/13-leaver-notes-added.png" alt="Notes Added" />
+
 **Step 4: Compliance Documentation**  
 Offboarding notes added to Peter's profile - departure date, reason, processed by
 
@@ -237,7 +241,8 @@ Offboarding notes added to Peter's profile - departure date, reason, processed b
 <tr>
 <td colspan="2">
 
-![Sign-in Audit](screenshots/14-leaver-signin-audit.png)
+<img src="screenshots/14-leaver-signin-audit.png" alt="Sign-in Audit" />
+
 **Step 5: Audit Trail Review**  
 Peter's sign-in logs analyzed to verify last activity and confirm no unauthorized access post-termination
 
