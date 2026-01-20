@@ -1,12 +1,12 @@
 # Joiner (New Employee Onboarding) Checklist
 
 ## Employee Information
-- **Name:** Alex Johnson
-- **Email:** alex.johnson@[yourdomain].onmicrosoft.com
+- **Name:** Peter Parker
+- **Email:** peter.parker@[yourdomain].onmicrosoft.com
 - **Job Title:** IT Support Specialist
 - **Department:** IT
 - **Start Date:** January 19, 2026
-- **Manager:** Sarah Manager
+- **Manager:** Tony Stark (IT Director)
 - **Employee Type:** Full-time
 
 ---
@@ -21,11 +21,11 @@
 - [x] Password change required on first login
 
 ### Profile Configuration
-- [x] First name populated
-- [x] Last name populated
-- [x] Job title assigned
-- [x] Department specified
-- [x] Manager relationship configured
+- [x] First name: Peter
+- [x] Last name: Parker
+- [x] Job title: IT Support Specialist
+- [x] Department: IT
+- [x] Manager relationship: Tony Stark
 - [x] Usage location set (required for licensing)
 - [x] Company name added
 
@@ -65,7 +65,7 @@
 - [x] User account visible in Entra ID user list
 - [x] Profile information accurate and complete
 - [x] Group memberships showing correctly
-- [x] Manager relationship established
+- [x] Manager relationship established (reports to Tony Stark)
 - [x] Account status: Enabled
 - [x] Sign-in allowed: Yes
 
@@ -75,17 +75,17 @@
 
 ### Immediate (Day 0)
 - [x] Credentials prepared for delivery
-- [x] Welcome email drafted (would be sent to manager)
+- [x] Welcome email drafted (would be sent to Tony Stark)
 - [x] IT onboarding ticket created (simulated)
 
 ### Day 1
-- [ ] User successfully logs in and changes password
+- [ ] Peter successfully logs in and changes password
 - [ ] MFA enrollment completed (Week 2 lab)
 - [ ] Access to required applications verified
-- [ ] Manager confirms user is productive
+- [ ] Tony Stark confirms Peter is productive
 
 ### Week 1
-- [ ] User completes security awareness training
+- [ ] Peter completes security awareness training
 - [ ] Additional role-specific access requested if needed
 - [ ] IT verifies no access issues reported
 
@@ -99,9 +99,9 @@
 - Account enabled only after manager approval (simulated)
 
 **Business Impact:**
-- User can be productive immediately on Day 1
+- Peter can be productive immediately on Day 1
 - IT department access grants tools needed for support role
-- Manager relationship enables org chart accuracy
+- Manager relationship enables org chart accuracy (Peter → Tony Stark → CTO)
 
 **Compliance:**
 - All provisioning actions logged in Entra ID audit trail
