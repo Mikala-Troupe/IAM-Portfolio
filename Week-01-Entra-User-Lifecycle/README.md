@@ -78,38 +78,187 @@ I simulated a complete employee lifecycle for a fictional employee, **Alex Johns
 
 ---
 
-## 📸 Key Screenshots
+## 📸 Visual Documentation
 
-### Joiner Process
+This section provides complete visual evidence of the JML lifecycle process from start to finish.
+
+---
+
+### 🏗️ Environment Setup
+
+<table>
+<tr>
+<td width="50%">
+
+![Groups Created](screenshots/00-groups-created.png)
+**Security Groups Created**  
+Organizational structure simulated with IT-Department, Finance-Department, HR-Department, and All-Employees groups
+
+</td>
+<td width="50%">
+
+![Manager Account](screenshots/00-manager-account.png)
+**Manager Accounts Configured**  
+Sarah Manager (IT) and Michael Finance (Finance) created to establish reporting hierarchy
+
+</td>
+</tr>
+</table>
+
+---
+
+### 👤 Joiner Process: Alex Johnson (IT Support Specialist)
+
+<table>
+<tr>
+<td width="50%">
+
 ![User Creation](screenshots/01-joiner-user-creation.png)
-*Creating new user account with required identity information and temporary credentials*
+**Step 1: User Account Creation**  
+New account created with UPN, display name, and temporary password requiring change on first login
+
+</td>
+<td width="50%">
+
+![Profile Properties](screenshots/02-joiner-profile-properties.png)
+**Step 2: Profile Configuration**  
+Job title, department, manager, and usage location configured
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ![Group Assignment](screenshots/03-joiner-group-assignment.png)
-*Assigning user to IT-Department and All-Employees security groups for baseline access*
+**Step 3: Group Assignment**  
+User added to IT-Department and All-Employees groups for baseline access
+
+</td>
+<td width="50%">
 
 ![Profile Complete](screenshots/04-joiner-profile-complete.png)
-*Completed user profile showing job title, department, and manager relationship*
+**Step 4: Profile Verification**  
+Complete user profile showing all required attributes configured correctly
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+![Groups Verified](screenshots/05-joiner-groups-verified.png)
+**Step 5: Access Verification**  
+Group memberships confirmed - user now has access to IT systems and company-wide resources
+
+</td>
+</tr>
+</table>
+
+**Result:** ✅ Functional account ready for Day 1 productivity
 
 ---
 
-### Mover Process
+### 🔄 Mover Process: IT → Finance Transfer
+
+<table>
+<tr>
+<td width="50%">
+
+![New Manager](screenshots/06-mover-new-manager.png)
+**Step 1: Finance Manager Created**  
+Michael Finance account created to support transfer workflow
+
+</td>
+<td width="50%">
+
 ![Department Change](screenshots/07-mover-department-change.png)
-*Updating user profile for internal transfer from IT to Finance department*
+**Step 2: Profile Updated**  
+Job title changed to Financial Analyst, department changed to Finance, manager reassigned
 
-![Group Updates](screenshots/09-mover-final-groups.png)
-*Updated group memberships reflecting new role - IT access removed, Finance access granted*
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+![Groups Updated](screenshots/08-mover-groups-updated.png)
+**Step 3: Group Changes Processing**  
+Removing IT-Department access, adding Finance-Department access
+
+</td>
+<td width="50%">
+
+![Final Groups](screenshots/09-mover-final-groups.png)
+**Step 4: Transfer Complete**  
+Group memberships now reflect Finance role - IT access removed, Finance access granted
+
+</td>
+</tr>
+</table>
+
+**Result:** ✅ Access properly aligned with new role, old permissions revoked
 
 ---
 
-### Leaver Process
+### 🚪 Leaver Process: Employee Departure
+
+<table>
+<tr>
+<td width="50%">
+
+![Pre-Offboarding](screenshots/10-leaver-pre-offboarding-state.png)
+**Step 1: Pre-Offboarding Audit**  
+Current state documented - group memberships, profile info, recent activity
+
+</td>
+<td width="50%">
+
 ![Account Disabled](screenshots/11-leaver-account-disabled.png)
-*Account disabled to immediately revoke access while maintaining audit trail*
+**Step 2: Account Disabled**  
+Account status changed to "Disabled" - immediate access revocation while maintaining audit trail
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ![Groups Removed](screenshots/12-leaver-groups-removed.png)
-*All group memberships removed to ensure complete access revocation*
+**Step 3: Access Revoked**  
+All security group memberships removed - Finance-Department and All-Employees access terminated
+
+</td>
+<td width="50%">
+
+![Notes Added](screenshots/13-leaver-notes-added.png)
+**Step 4: Compliance Documentation**  
+Offboarding notes added to profile - departure date, reason, processed by
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
 
 ![Sign-in Audit](screenshots/14-leaver-signin-audit.png)
-*Sign-in logs reviewed to document last account activity for compliance*
+**Step 5: Audit Trail Review**  
+Sign-in logs analyzed to verify last activity and confirm no unauthorized access post-termination
+
+</td>
+</tr>
+</table>
+
+**Result:** ✅ Account secured, access revoked, compliance maintained
+
+---
+
+### 📊 Process Summary
+
+| Phase | Screenshots | Key Actions | Time (Manual) |
+|-------|------------|-------------|---------------|
+| Setup | 2 | Groups and managers created | ~10 min |
+| Joiner | 5 | Account created and provisioned | ~5 min |
+| Mover | 4 | Profile and access updated | ~3 min |
+| Leaver | 5 | Account disabled and documented | ~5 min |
+| **Total** | **16** | **Complete JML lifecycle** | **~23 min** |
+
+---
 
 ---
 
