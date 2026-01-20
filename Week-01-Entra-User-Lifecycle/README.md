@@ -100,7 +100,7 @@ Organizational structure simulated with IT-Department, Finance-Department, HR-De
 
 ![Manager Account](screenshots/00-manager-account.png)
 **Manager Accounts Configured**  
-Sarah Manager (IT) and Michael Finance (Finance) created to establish reporting hierarchy
+Tony Stark (IT Director) and Pepper Potts (Finance Director) created to establish reporting hierarchy
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ Sarah Manager (IT) and Michael Finance (Finance) created to establish reporting 
 
 ---
 
-### 👤 Joiner Process: Alex Johnson (IT Support Specialist)
+### 👤 Joiner Process: Peter Parker (IT Support Specialist)
 
 <table>
 <tr>
@@ -116,14 +116,14 @@ Sarah Manager (IT) and Michael Finance (Finance) created to establish reporting 
 
 ![User Creation](screenshots/01-joiner-user-creation.png)
 **Step 1: User Account Creation**  
-New account created with UPN, display name, and temporary password requiring change on first login
+Creating Peter Parker's account with UPN, display name, and temporary password requiring change on first login
 
 </td>
 <td width="50%">
 
 ![Profile Properties](screenshots/02-joiner-profile-properties.png)
 **Step 2: Profile Configuration**  
-Job title, department, manager, and usage location configured
+Configuring Peter's profile: IT Support Specialist, IT Department, reporting to Tony Stark
 
 </td>
 </tr>
@@ -132,14 +132,14 @@ Job title, department, manager, and usage location configured
 
 ![Group Assignment](screenshots/03-joiner-group-assignment.png)
 **Step 3: Group Assignment**  
-User added to IT-Department and All-Employees groups for baseline access
+Adding Peter to IT-Department and All-Employees groups for baseline access
 
 </td>
 <td width="50%">
 
 ![Profile Complete](screenshots/04-joiner-profile-complete.png)
 **Step 4: Profile Verification**  
-Complete user profile showing all required attributes configured correctly
+Peter Parker's complete profile showing all required attributes configured correctly
 
 </td>
 </tr>
@@ -148,13 +148,13 @@ Complete user profile showing all required attributes configured correctly
 
 ![Groups Verified](screenshots/05-joiner-groups-verified.png)
 **Step 5: Access Verification**  
-Group memberships confirmed - user now has access to IT systems and company-wide resources
+Group memberships confirmed - Peter now has access to IT systems and company-wide resources
 
 </td>
 </tr>
 </table>
 
-**Result:** ✅ Functional account ready for Day 1 productivity
+**Result:** ✅ Peter Parker's account ready for Day 1 productivity
 
 ---
 
@@ -166,14 +166,14 @@ Group memberships confirmed - user now has access to IT systems and company-wide
 
 ![New Manager](screenshots/06-mover-new-manager.png)
 **Step 1: Finance Manager Created**  
-Michael Finance account created to support transfer workflow
+Pepper Potts account created to support Peter's transfer workflow
 
 </td>
 <td width="50%">
 
 ![Department Change](screenshots/07-mover-department-change.png)
 **Step 2: Profile Updated**  
-Job title changed to Financial Analyst, department changed to Finance, manager reassigned
+Peter's job title changed to Financial Analyst, department changed to Finance, manager reassigned to Pepper Potts
 
 </td>
 </tr>
@@ -182,24 +182,24 @@ Job title changed to Financial Analyst, department changed to Finance, manager r
 
 ![Groups Updated](screenshots/08-mover-groups-updated.png)
 **Step 3: Group Changes Processing**  
-Removing IT-Department access, adding Finance-Department access
+Removing Peter from IT-Department, adding to Finance-Department
 
 </td>
 <td width="50%">
 
 ![Final Groups](screenshots/09-mover-final-groups.png)
 **Step 4: Transfer Complete**  
-Group memberships now reflect Finance role - IT access removed, Finance access granted
+Peter's group memberships now reflect Finance role - IT access removed, Finance access granted
 
 </td>
 </tr>
 </table>
 
-**Result:** ✅ Access properly aligned with new role, old permissions revoked
+**Result:** ✅ Peter's access properly aligned with new Finance role, old IT permissions revoked
 
 ---
 
-### 🚪 Leaver Process: Employee Departure
+### 🚪 Leaver Process: Peter Parker's Departure
 
 <table>
 <tr>
@@ -207,14 +207,14 @@ Group memberships now reflect Finance role - IT access removed, Finance access g
 
 ![Pre-Offboarding](screenshots/10-leaver-pre-offboarding-state.png)
 **Step 1: Pre-Offboarding Audit**  
-Current state documented - group memberships, profile info, recent activity
+Peter's current state documented - group memberships, profile info, recent activity
 
 </td>
 <td width="50%">
 
 ![Account Disabled](screenshots/11-leaver-account-disabled.png)
 **Step 2: Account Disabled**  
-Account status changed to "Disabled" - immediate access revocation while maintaining audit trail
+Peter Parker's account status changed to "Disabled" - immediate access revocation
 
 </td>
 </tr>
@@ -223,14 +223,14 @@ Account status changed to "Disabled" - immediate access revocation while maintai
 
 ![Groups Removed](screenshots/12-leaver-groups-removed.png)
 **Step 3: Access Revoked**  
-All security group memberships removed - Finance-Department and All-Employees access terminated
+All of Peter's security group memberships removed - Finance and All-Employees access terminated
 
 </td>
 <td width="50%">
 
 ![Notes Added](screenshots/13-leaver-notes-added.png)
 **Step 4: Compliance Documentation**  
-Offboarding notes added to profile - departure date, reason, processed by
+Offboarding notes added to Peter's profile - departure date, reason, processed by
 
 </td>
 </tr>
@@ -239,13 +239,13 @@ Offboarding notes added to profile - departure date, reason, processed by
 
 ![Sign-in Audit](screenshots/14-leaver-signin-audit.png)
 **Step 5: Audit Trail Review**  
-Sign-in logs analyzed to verify last activity and confirm no unauthorized access post-termination
+Peter's sign-in logs analyzed to verify last activity and confirm no unauthorized access post-termination
 
 </td>
 </tr>
 </table>
 
-**Result:** ✅ Account secured, access revoked, compliance maintained
+**Result:** ✅ Peter Parker's account secured, access revoked, compliance maintained
 
 ---
 
