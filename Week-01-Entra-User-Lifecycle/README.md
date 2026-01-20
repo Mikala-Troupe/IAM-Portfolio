@@ -49,6 +49,20 @@ I simulated a complete employee lifecycle for **Peter Parker**, a fictional empl
 
 ---
 
+## 📝 Lab Environment Note
+
+As this is a controlled lab environment created for learning purposes, certain production behaviors were simulated rather than executed:
+
+- **Sign-in activity:** No actual user authentication occurred. Screenshots demonstrate knowledge of where to locate sign-in logs in Entra ID and what data would be reviewed during a production offboarding.
+
+- **Application provisioning:** Group-based access would automatically provision/deprovision applications in production environments with SCIM/SSO configured.
+
+- **Automated workflows:** Production environments would include HRIS integration, approval workflows, and automated notifications.
+
+This lab focuses on demonstrating the **manual IAM processes and governance principles** that underpin automated enterprise identity systems.
+
+---
+
 ### Phase 2: Mover (Internal Role Transfer)
 **Scenario:** Peter transfers from IT Support to Finance Department as a Financial Analyst.
 
@@ -244,7 +258,7 @@ Offboarding notes added to Peter's profile - departure date, reason, processed b
 <img src="screenshots/14-leaver-signin-audit.png" alt="Sign-in Audit" />
 
 **Step 5: Audit Trail Review**  
-Peter's sign-in logs analyzed to verify last activity and confirm no unauthorized access post-termination
+Sign-in logs filtered for Peter Parker - demonstrates audit log location and filtering (no activity in lab environment). Production scenarios would show authentication timestamps, locations, and accessed resources for compliance verification.
 
 </td>
 </tr>
@@ -449,5 +463,8 @@ Week-01-Entra-User-Lifecycle/
 **Status:** ✅ Complete and production-ready documentation
 
 ---
+
+> **💡 Lab Environment Note**  
+> This lab was conducted in a test environment without active user authentication. Sign-in logs demonstrate the audit interface and filtering capabilities. In production environments, this step would include reviewing actual authentication events, geo-location data, and access patterns before account termination.
 
 [← Back to Main Portfolio](../README.md) | [Next Lab: RBAC & Conditional Access →](../Week-02-RBAC-and-Conditional-Access/README.md)
