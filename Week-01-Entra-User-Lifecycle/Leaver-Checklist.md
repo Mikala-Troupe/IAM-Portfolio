@@ -3,11 +3,11 @@
 ## Departure Information
 
 ### Employee Details
-- **Name:** Alex Johnson
-- **Email:** alex.johnson@[yourdomain].onmicrosoft.com
+- **Name:** Peter Parker
+- **Email:** peter.parker@[yourdomain].onmicrosoft.com
 - **Job Title:** Financial Analyst
 - **Department:** Finance
-- **Manager:** Michael Finance
+- **Manager:** Pepper Potts (Finance Director)
 - **Last Working Day:** January 19, 2026
 - **Reason for Departure:** Resignation
 - **Notice Period:** 2 weeks (standard)
@@ -18,7 +18,7 @@
 
 ### Information Gathering
 - [x] Departure date confirmed with HR
-- [x] Manager approval for offboarding obtained
+- [x] Manager approval for offboarding obtained from Pepper Potts
 - [x] Exit interview scheduled (simulated)
 - [x] Knowledge transfer status checked
 
@@ -57,7 +57,7 @@
 - [x] Offboarding notes added to user profile
 - [x] Departure reason documented
 - [x] Last working day recorded
-- [x] Manager notified of account deactivation
+- [x] Manager (Pepper Potts) notified of account deactivation
 
 ### Audit & Compliance
 - [x] Sign-in logs exported for last 30 days
@@ -99,11 +99,11 @@
 - [x] Account disabled to prevent further access
 - [x] Active sessions terminated
 - [x] Group memberships removed
-- [x] Manager and HR notified
+- [x] Pepper Potts and HR notified
 
 ### 30-Day Retention Period
-- [ ] Email forwarding configured to manager (if requested)
-- [ ] OneDrive access granted to manager for data retrieval
+- [ ] Email forwarding configured to Pepper Potts (if requested)
+- [ ] OneDrive access granted to Pepper Potts for data retrieval
 - [ ] Shared files ownership transferred
 - [ ] Distribution list memberships reviewed and updated
 
@@ -130,8 +130,8 @@
 - [x] Entra ID audit logs show offboarding actions
 
 ### Follow-Up Verification
-- [ ] No help desk tickets from user (access properly blocked)
-- [ ] Manager confirms data transfer complete
+- [ ] No help desk tickets from Peter (access properly blocked)
+- [ ] Pepper Potts confirms data transfer complete
 - [ ] Finance team confirms no access issues
 - [ ] IT confirms no orphaned resources
 
@@ -171,7 +171,7 @@
 ## Notifications Sent
 
 ### Internal Stakeholders
-- [x] **Manager (Michael Finance):** User access terminated, data transfer options
+- [x] **Manager (Pepper Potts):** User access terminated, data transfer options
 - [x] **HR Department:** Offboarding complete, final payroll can proceed
 - [x] **IT Security:** Account disabled, monitor for any breach attempts
 - [x] **Finance Team:** Distribution lists updated, access revoked
@@ -215,7 +215,7 @@
 - Comprehensive documentation for compliance and forensics
 
 **Business Continuity:**
-- Manager has 30 days to retrieve necessary files
+- Pepper Potts has 30 days to retrieve necessary files
 - Email forwarding prevents communication gaps
 - Knowledge transfer completed before departure date
 - No disruption to Finance team operations
@@ -247,17 +247,3 @@
 **Account State:** Disabled, pending 90-day retention  
 **Compliance:** All requirements met  
 **Security:** No concerns identified
-```
-
----
-
-## ✅ What You Have Now
-
-After creating these 4 files in Obsidian, your Week 1 folder will have:
-```
-Week-01-Entra-User-Lifecycle/
-├── README.md                ✅ Main portfolio piece
-├── Joiner-Checklist.md      ✅ Onboarding documentation
-├── Mover-Checklist.md       ✅ Transfer documentation
-├── Leaver-Checklist.md      ✅ Offboarding documentation
-└── screenshots/             📸 Add your images here
