@@ -32,16 +32,16 @@ This lab simulates real-world scenarios that IAM analysts encounter daily in ent
 ## 📋 Lab Scenario
 
 ### Context
-I simulated a complete employee lifecycle for a fictional employee, **Alex Johnson**, within a test organization. The scenario covers three distinct phases that mirror real-world IAM operations.
+I simulated a complete employee lifecycle for **Peter Parker**, a fictional employee within a test organization. The scenario covers three distinct phases that mirror real-world IAM operations.
 
 ### Phase 1: Joiner (New Employee Onboarding)
-**Scenario:** Alex Johnson joins the company as an IT Support Specialist on January 19, 2026.
+**Scenario:** Peter Parker joins the company as an IT Support Specialist on January 19, 2026.
 
 **Actions Performed:**
 - Created user account in Entra ID with complete profile information
 - Assigned to IT-Department security group
 - Assigned to All-Employees security group
-- Configured manager relationship (Sarah Manager)
+- Configured manager relationship (Tony Stark - IT Director)
 - Set temporary password with forced change on first login
 - Documented baseline access grants
 
@@ -50,12 +50,13 @@ I simulated a complete employee lifecycle for a fictional employee, **Alex Johns
 ---
 
 ### Phase 2: Mover (Internal Role Transfer)
-**Scenario:** Alex transfers from IT Support to Finance Department as a Financial Analyst.
+**Scenario:** Peter transfers from IT Support to Finance Department as a Financial Analyst.
 
 **Actions Performed:**
 - Updated user profile (job title, department, manager)
 - Removed from IT-Department security group
 - Added to Finance-Department security group
+- Changed manager from Tony Stark to Pepper Potts
 - Verified access changes reflected correctly
 - Documented access impact analysis
 
@@ -64,7 +65,7 @@ I simulated a complete employee lifecycle for a fictional employee, **Alex Johns
 ---
 
 ### Phase 3: Leaver (Employee Offboarding)
-**Scenario:** Alex Johnson departs the company.
+**Scenario:** Peter Parker departs the company.
 
 **Actions Performed:**
 - Exported group memberships for compliance audit
