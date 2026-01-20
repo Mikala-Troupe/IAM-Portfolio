@@ -3,21 +3,21 @@
 ## Transfer Information
 
 ### Employee Details
-- **Employee Name:** Alex Johnson
-- **Employee Email:** alex.johnson@[yourdomain].onmicrosoft.com
+- **Employee Name:** Peter Parker
+- **Employee Email:** peter.parker@[yourdomain].onmicrosoft.com
 - **Transfer Date:** January 19, 2026
 - **Transfer Type:** Departmental transfer
 
 ### Previous Role
 - **Department:** IT
 - **Job Title:** IT Support Specialist
-- **Manager:** Sarah Manager
+- **Manager:** Tony Stark (IT Director)
 - **Primary Security Group:** IT-Department
 
 ### New Role
 - **Department:** Finance
 - **Job Title:** Financial Analyst
-- **Manager:** Michael Finance
+- **Manager:** Pepper Potts (Finance Director)
 - **Primary Security Group:** Finance-Department
 
 ---
@@ -27,7 +27,7 @@
 ### Profile Updates
 - [x] Job title updated: IT Support Specialist → Financial Analyst
 - [x] Department changed: IT → Finance
-- [x] Manager reassigned: Sarah Manager → Michael Finance
+- [x] Manager reassigned: Tony Stark → Pepper Potts
 - [x] Profile changes saved and verified
 
 ### Group Membership Changes
@@ -38,7 +38,7 @@
 
 ### Verification
 - [x] User profile reflects new role information
-- [x] New manager relationship visible in org chart
+- [x] New manager relationship visible in org chart (Peter → Pepper Potts)
 - [x] Group memberships accurately show new department
 - [x] Old department access removed
 - [x] New department access granted
@@ -73,11 +73,11 @@
 ## Communication & Notifications
 
 ### Notifications Sent (Production Scenario)
-- [ ] **Previous Manager (Sarah):** Notified of employee transfer, access changes
-- [ ] **New Manager (Michael):** Notified of new team member, access granted
-- [ ] **IT Department:** Removed from department distribution lists
-- [ ] **Finance Department:** Added to department distribution lists
-- [ ] **Employee (Alex):** Informed of access changes and new resources available
+- [ ] **Previous Manager (Tony Stark):** Notified of Peter's transfer, access changes
+- [ ] **New Manager (Pepper Potts):** Notified of new team member, access granted
+- [ ] **IT Department:** Peter removed from department distribution lists
+- [ ] **Finance Department:** Peter added to department distribution lists
+- [ ] **Employee (Peter Parker):** Informed of access changes and new resources available
 
 ---
 
@@ -94,7 +94,7 @@
 - All changes tracked in Microsoft Entra ID audit logs
 - Transfer date: January 19, 2026
 - Modified by: Mikala Troupe (IAM Administrator)
-- Approval reference: Manager approval (simulated)
+- Approval reference: Manager approval from Tony Stark (simulated)
 
 ---
 
@@ -106,13 +106,13 @@
 - [x] No errors in provisioning logs
 
 ### Day 1
-- [ ] User successfully accesses Finance systems
-- [ ] User confirms IT access appropriately removed
-- [ ] New manager confirms user has correct access
+- [ ] Peter successfully accesses Finance systems
+- [ ] Peter confirms IT access appropriately removed
+- [ ] Pepper Potts confirms Peter has correct access
 - [ ] No help desk tickets for access issues
 
 ### Week 1
-- [ ] User completes Finance department onboarding
+- [ ] Peter completes Finance department onboarding
 - [ ] Access to all necessary Finance tools verified
 - [ ] Any additional role-specific access requested and provisioned
 
@@ -123,7 +123,7 @@
 **Process Efficiency:**
 - Manual transfer completed in ~3 minutes
 - In production with automated provisioning: < 30 seconds
-- Zero downtime - user maintains access to core systems throughout
+- Zero downtime - Peter maintains access to core systems throughout
 
 **Security Considerations:**
 - Old department access removed immediately to prevent privilege creep
@@ -144,7 +144,7 @@
 **Future Improvements:**
 - Integrate with HRIS to trigger transfers automatically
 - Implement approval workflows for manager sign-off
-- Auto-notify affected parties (managers, IT, employee)
+- Auto-notify affected parties (Tony Stark, Pepper Potts, Peter)
 - Create role-based access templates for common transfers
 
 ---
