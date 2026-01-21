@@ -4,7 +4,7 @@
 
 ### Employee Details
 - **Employee Name:** Peter Parker
-- **Employee Email:** peter.parker@[yourdomain].onmicrosoft.com
+- **Employee Email:** peter.parker@datgirlace2020gmail.onmicrosoft.com
 - **Transfer Date:** January 19, 2026
 - **Transfer Type:** Departmental transfer
 
@@ -150,6 +150,6 @@
 ---
 
 **Transfer Processed By:** Mikala Troupe  
-**Date:** January 19, 2026  
+**Date:** January 20, 2026  
 **Status:** Complete ✅  
 **Verification:** All access changes confirmed
