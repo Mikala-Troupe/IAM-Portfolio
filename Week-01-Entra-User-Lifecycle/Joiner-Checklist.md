@@ -2,7 +2,7 @@
 
 ## Employee Information
 - **Name:** Peter Parker
-- **Email:** peter.parker@[yourdomain].onmicrosoft.com
+- **Email:** peter.parker@datgirlace2020gmail.onmicrosoft.com
 - **Job Title:** IT Support Specialist
 - **Department:** IT
 - **Start Date:** January 19, 2026
