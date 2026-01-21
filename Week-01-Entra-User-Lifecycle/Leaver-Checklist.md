@@ -4,7 +4,7 @@
 
 ### Employee Details
 - **Name:** Peter Parker
-- **Email:** peter.parker@[yourdomain].onmicrosoft.com
+- **Email:** peter.parker@datgirlace2020gmail.onmicrosoft.com
 - **Job Title:** Financial Analyst
 - **Department:** Finance
 - **Manager:** Pepper Potts (Finance Director)
@@ -242,7 +242,7 @@
 ---
 
 **Offboarding Processed By:** Mikala Troupe  
-**Date:** January 19, 2026  
+**Date:** January 20, 2026  
 **Status:** Complete ✅  
 **Account State:** Disabled, pending 90-day retention  
 **Compliance:** All requirements met  
