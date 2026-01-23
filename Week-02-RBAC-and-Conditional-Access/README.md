@@ -632,41 +632,6 @@ Each lab builds progressively toward comprehensive IAM engineering expertise.
 
 ---
 
-## 📁 Lab File Structure
-```
-Week-02-RBAC-and-Conditional-Access/
-├── README.md                              # This file
-├── RBAC-Matrix.md                         # Role definitions and assignments
-├── Conditional-Access-Policies.md         # Policy details and justifications
-├── Risk-Detection-Scenarios.md            # Identity Protection scenarios
-└── screenshots/                           # Visual documentation (22 images)
-    ├── 00-entra-p2-trial-activated.png
-    ├── 00-peter-reactivated.png
-    ├── 01-rbac-groups-created.png
-    ├── 02-users-assigned-to-roles.png
-    ├── 03-entra-roles-assigned.png
-    ├── 04-policy1-users-selected.png
-    ├── 04-policy1-target-resources.png
-    ├── 04-policy1-grant-controls.png
-    ├── 04-policy1-created.png
-    ├── 05-policy2-conditions.png
-    ├── 05-policy2-created.png
-    ├── 06-policy3-users.png
-    ├── 06-policy3-created.png
-    ├── 07-policy4-users-assigned.png
-    ├── 07-policy4-target-resources.png
-    ├── 07-policy4-signin-risk-conditions.png
-    ├── 07-policy4-grant-controls.png
-    ├── 08-all-policies-overview.png
-    ├── 09-signin-log-mfa-report-only.png
-    ├── 10-compliant-device-report.png
-    ├── 11-risky-signins-interface.png
-    ├── 11-risk-detections-interface.png
-    └── 12-what-if-tool.png
-```
-
----
-
 ## 💡 Lab Environment Notes
 
 **Testing Limitations:**
