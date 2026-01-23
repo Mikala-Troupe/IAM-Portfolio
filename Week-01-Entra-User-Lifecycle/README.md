@@ -429,34 +429,6 @@ Throughout this lab, I applied security best practices:
 
 ---
 
-## 📁 Lab File Structure
-```
-Week-01-Entra-User-Lifecycle/
-├── README.md                    # This file
-├── Joiner-Checklist.md         # Onboarding procedure
-├── Mover-Checklist.md          # Transfer procedure
-├── Leaver-Checklist.md         # Offboarding procedure
-└── screenshots/                 # Visual documentation
-    ├── 00-groups-created.png
-    ├── 00-manager-account.png
-    ├── 01-joiner-user-creation.png
-    ├── 02-joiner-profile-properties.png
-    ├── 03-joiner-group-assignment.png
-    ├── 04-joiner-profile-complete.png
-    ├── 05-joiner-groups-verified.png
-    ├── 06-mover-new-manager.png
-    ├── 07-mover-department-change.png
-    ├── 08-mover-groups-updated.png
-    ├── 09-mover-final-groups.png
-    ├── 10-leaver-pre-offboarding-state.png
-    ├── 11-leaver-account-disabled.png
-    ├── 12-leaver-groups-removed.png
-    ├── 13-leaver-notes-added.png
-    └── 14-leaver-signin-audit.png
-```
-
----
-
 **Lab Completed:** January 19, 2026  
 **Time Invested:** 4 hours  
 **Skill Level:** Entry-level IAM Analyst  
