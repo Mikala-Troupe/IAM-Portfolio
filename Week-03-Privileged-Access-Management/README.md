@@ -325,4 +325,3 @@ This is Week 3 of my IAM + Security Operations portfolio:
 ---
 
 *Built by Mikala Troupe as part of a hands-on IAM + Security Operations portfolio*
-```
