@@ -385,9 +385,9 @@ All 4 policies working together - layered defense means if one fails, others sti
 
 Deep technical documentation for security architects and auditors:
 
-- **[Conditional-Access-Policies.md](Conditional-Access-Policies.md)** - Complete policy specs, rollout strategy, success metrics (650 lines)
+- **[Conditional-Access-Policies.md](Conditional-Access-Policies.md)** - Complete policy specs, rollout strategy, success metrics
 - **[RBAC-Matrix.md](RBAC-Matrix.md)** - Role definitions and permission mappings
-- **[Risk-Detection-Scenarios.md](Risk-Detection-Scenarios.md)** - How AI detects attacks, real-world examples (900 lines)
+- **[Risk-Detection-Scenarios.md](Risk-Detection-Scenarios.md)** - How AI detects attacks, real-world examples
 
 ---
 
