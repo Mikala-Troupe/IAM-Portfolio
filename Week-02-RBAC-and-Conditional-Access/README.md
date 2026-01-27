@@ -1,4 +1,4 @@
-# Week 2 – Smart Security Policies That Stop Hackers Automatically
+# Week 2: Smart Security Policies That Stop Hackers Automatically
 
 ## What I Built
 
@@ -64,7 +64,7 @@ Even if hackers steal your password from a data breach, they can't get in withou
 **What it does:** Blocks outdated email clients and protocols that don't support modern security.
 
 **The problem:**
-Old email apps (like Outlook 2010, iPhone Mail before iOS 15) can't do MFA. They use "basic authentication" - just username and password. Hackers love these because there's no second factor protection.
+Old email apps (like Outlook 2010, iPhone Mail before iOS 15) can't do MFA. They use "basic authentication", just username and password. Hackers love these because there's no second factor protection.
 
 **My solution:**
 Block anyone using these old methods. They have to switch to modern apps (Outlook 2019+, native mobile apps, web browser).
@@ -87,7 +87,7 @@ Even if Policy 1 requires MFA, old apps bypass it! Blocking these apps closes th
 **What it does:** IT admins can only sign in from company-managed computers that meet security standards.
 
 **Why admins need extra protection:**
-Admins have "keys to the kingdom" - they can access everything, change anything, view all data. If an admin account gets compromised, the attacker gets full control of the entire company.
+Admins have "keys to the kingdom", they can access everything, change anything, view all data. If an admin account gets compromised, the attacker gets full control of the entire company.
 
 **What "secure device" means:**
 - ✅ Company-owned laptop (enrolled in management system)
@@ -217,7 +217,7 @@ Peter gets Helpdesk Administrator (limited), Natasha gets Security Reader (view-
 <img src="screenshots/04-policy1-grant-controls.png" alt="MFA Policy" />
 
 **Require Multi-Factor Authentication**  
-Everyone has to provide a second form of proof - usually a code from their phone app
+Everyone has to provide a second form of proof, usually a code from their phone app
 
 </td>
 <td width="50%">
@@ -225,7 +225,7 @@ Everyone has to provide a second form of proof - usually a code from their phone
 <img src="screenshots/09-signin-log-mfa-report-only.png" alt="Testing MFA" />
 
 **Testing in Report-Only Mode**  
-Testing the policy safely - it logs what it WOULD do without actually blocking anyone (prevents accidentally locking everyone out)
+Testing the policy safely, it logs what it WOULD do without actually blocking anyone (prevents accidentally locking everyone out)
 
 </td>
 </tr>
@@ -238,7 +238,7 @@ Testing the policy safely - it logs what it WOULD do without actually blocking a
 <img src="screenshots/05-policy2-conditions.png" alt="Block Legacy Auth" />
 
 **Blocking Insecure Protocols**  
-Old email clients (IMAP, POP3, old Outlook versions) that can't do MFA get blocked - forces users to upgrade to secure apps
+Old email clients (IMAP, POP3, old Outlook versions) that can't do MFA get blocked, forces users to upgrade to secure apps
 
 ---
 
@@ -247,7 +247,7 @@ Old email clients (IMAP, POP3, old Outlook versions) that can't do MFA get block
 <img src="screenshots/06-policy3-created.png" alt="Device Compliance" />
 
 **IT Admins Need Secure Devices**  
-Tony can only log in as admin from company laptops that have antivirus, encryption, and current patches - not his personal MacBook
+Tony can only log in as admin from company laptops that have antivirus, encryption, and current patches, not his personal MacBook
 
 ---
 
@@ -260,7 +260,7 @@ Tony can only log in as admin from company laptops that have antivirus, encrypti
 <img src="screenshots/07-policy4-signin-risk-conditions.png" alt="Risk Levels" />
 
 **AI Risk Configuration**  
-Block High and Medium risk sign-ins automatically - AI detects impossible travel, stolen passwords, suspicious IPs, anonymous proxies
+Block High and Medium risk sign-ins automatically, AI detects impossible travel, stolen passwords, suspicious IPs, anonymous proxies
 
 </td>
 <td width="50%">
@@ -268,7 +268,7 @@ Block High and Medium risk sign-ins automatically - AI detects impossible travel
 <img src="screenshots/11-risky-signins-interface.png" alt="Risk Dashboard" />
 
 **Risk Detection Dashboard**  
-Shows suspicious login attempts the AI caught - in production this would show actual attacks, but my lab doesn't generate real attacks (no hackers testing my lab!)
+Shows suspicious login attempts the AI caught, in production this would show actual attacks, but my lab doesn't generate real attacks (no hackers testing my lab!)
 
 </td>
 </tr>
@@ -281,7 +281,7 @@ Shows suspicious login attempts the AI caught - in production this would show ac
 <img src="screenshots/08-all-policies-overview.png" alt="All Policies" />
 
 **Complete Security Suite**  
-All 4 policies working together - layered defense means if one fails, others still protect. This is called "defense in depth"
+All 4 policies working together, layered defense means if one fails, others still protect. This is called "defense in depth"
 
 ---
 
@@ -297,9 +297,9 @@ All 4 policies working together - layered defense means if one fails, others sti
 ### Security Concepts
 - **Defense in depth:** Multiple layers of protection (not just one)
 - **Zero Trust:** Never trust, always verify (even if you're inside the network)
-- **Risk-based access:** Not all logins are equal - context matters
+- **Risk-based access:** Not all logins are equal, context matters
 - **Least privilege:** Only give access to what's needed for the job
-- **Automation is key:** Humans can't analyze millions of logins - AI does it in milliseconds
+- **Automation is key:** Humans can't analyze millions of logins, AI does it in milliseconds
 
 ### The "Aha!" Moments
 - **Security doesn't mean annoying users:** Good security is invisible to legitimate users but stops attackers cold
@@ -320,13 +320,13 @@ All 4 policies working together - layered defense means if one fails, others sti
 **Mid-Size Company (500 employees):**
 - Same policies + more specific rules
 - Blocks 100+ attack attempts per month
-- Reduces helpdesk tickets by 50% (fewer "I forgot my password" - MFA makes password theft useless)
+- Reduces helpdesk tickets by 50% (fewer "I forgot my password", MFA makes password theft useless)
 - Integration with email security (blocks phishing before it reaches users)
 
 **Enterprise (10,000+ employees):**
 - Same foundation + advanced features
 - AI blocks thousands of attacks daily
-- Integration with security operations center (SOC) - every blocked attack creates incident ticket
+- Integration with security operations center (SOC), every blocked attack creates incident ticket
 - Automated response (blocked user? Auto-notify their manager and security team)
 - Custom risk scoring (VIP users get extra scrutiny)
 
