@@ -2,7 +2,7 @@
 
 ## What I Built
 
-I set up automated security controls in Microsoft Entra ID that protect user accounts from common attacks—like when someone tries to log in from a suspicious location or uses stolen passwords. Think of it as having a smart security guard that knows who should be accessing what, when, and from where.
+I set up automated security controls in Microsoft Entra ID that protect user accounts from common attacks,like when someone tries to log in from a suspicious location or uses stolen passwords. Think of it as having a smart security guard that knows who should be accessing what, when, and from where.
 
 **The Challenge:** Companies need to protect thousands of accounts without annoying legitimate users with constant security prompts.
 
