@@ -64,7 +64,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 **Skills:** User provisioning, group-based access, org hierarchy, offboarding procedures
 
-[View Lab Details →](Week-01-Entra-User-Lifecycle/)
+[View Lab Details →](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-01-Entra-User-Lifecycle/README.md)
 
 ---
 
@@ -88,7 +88,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 **Skills:** Conditional Access, Zero Trust, AI/ML security, RBAC, defense in depth
 
-[View Lab Details →](Week-02-RBAC-and-Conditional-Access/)
+[View Lab Details →](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-02-RBAC-and-Conditional-Access/README.md)
 
 ---
 
@@ -109,7 +109,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 **Skills:** Privileged Identity Management (PIM), JIT access, approval workflows, access reviews, attack surface reduction
 
-[View Lab Details →](Week-03-Privileged-Access-Management/)
+[View Lab Details →](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-03-Privileged-Access-Management/README.md)
 
 ---
 
