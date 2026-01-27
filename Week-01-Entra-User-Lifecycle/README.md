@@ -1,4 +1,4 @@
-# 👥 Week 1 – Managing Employee Accounts From Hire to Goodbye
+# Week 1: Managing Employee Accounts From Hire to Goodbye
 
 ## What I Built
 
@@ -10,7 +10,7 @@ I created a complete system for managing user accounts throughout an employee's 
 
 ---
 
-## 🎯 Why This Matters
+## Why This Matters
 
 **Security Impact:**
 - **Proper onboarding:** New employees can work on Day 1 (no waiting for IT to create accounts)
@@ -36,7 +36,7 @@ When Peter eventually leaves the company, the system immediately:
 
 ---
 
-## 📋 The Three Phases I Built
+## The Three Phases I Built
 
 ### Phase 1: Joiner (New Employee - First Day)
 
@@ -142,7 +142,7 @@ New user form with all the basics: email, name, job title, department
 <img src="screenshots/03-joiner-group-assignment.png" alt="Group Assignment" />
 
 **Adding to Groups**  
-Peter added to IT-Department and All-Employees - this automatically gives him access to everything IT people need
+Peter added to IT-Department and All-Employees, this automatically gives him access to everything IT people need
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ Peter added to IT-Department and All-Employees - this automatically gives him ac
 <img src="screenshots/04-joiner-profile-complete.png" alt="Profile Complete" />
 
 **Complete Profile**  
-Peter's account is ready: correct title, department, reports to Tony Stark - all set for Day 1
+Peter's account is ready: correct title, department, reports to Tony Stark, all set for Day 1
 
 </td>
 </tr>
@@ -177,7 +177,7 @@ Changed job title to Financial Analyst, department to Finance, manager to Pepper
 <img src="screenshots/09-mover-final-groups.png" alt="Groups Updated" />
 
 **Access Updated Automatically**  
-Removed from IT-Department, added to Finance-Department - clean transition with no leftover access
+Removed from IT-Department, added to Finance-Department, clean transition with no leftover access
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ Removed from every group - zero access to any company resources
 
 ---
 
-## 🎓 What I Learned
+## What I Learned
 
 ### Technical Skills
 - How to create and configure user accounts in Microsoft Entra ID
@@ -252,7 +252,7 @@ Add to Finance-Department = 50 new permissions added in one action
 
 ---
 
-## 🏢 How Real Companies Use This
+## How Real Companies Use This
 
 **Small Business (20 employees):**
 - Manual JML process (IT admin does it by hand following a checklist)
@@ -280,7 +280,7 @@ Add to Finance-Department = 50 new permissions added in one action
 
 ---
 
-## 📊 By The Numbers
+## By The Numbers
 
 **Efficiency Gains:**
 - Manual onboarding time: ~2 hours per employee
@@ -300,7 +300,7 @@ Add to Finance-Department = 50 new permissions added in one action
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **For Non-Technical Readers:**
 - Microsoft Entra ID: Microsoft's cloud-based employee directory and access management system
@@ -317,7 +317,7 @@ Add to Finance-Department = 50 new permissions added in one action
 
 ---
 
-## 📂 Want More Technical Details?
+## Want More Technical Details?
 
 I documented everything step-by-step:
 
@@ -329,7 +329,7 @@ These files are what actual IT teams use as runbooks to ensure consistency.
 
 ---
 
-## 💼 Skills Demonstrated
+## Skills Demonstrated
 
 **Identity Management:**
 ✅ User lifecycle management (Joiner-Mover-Leaver)  
@@ -356,7 +356,7 @@ These files are what actual IT teams use as runbooks to ensure consistency.
 
 ---
 
-## 🔗 Lab Series Progress
+## Lab Series Progress
 
 This is Week 1 of my IAM + Security Operations portfolio:
 
