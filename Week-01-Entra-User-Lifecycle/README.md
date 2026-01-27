@@ -4,7 +4,7 @@
 
 I created a complete system for managing user accounts throughout an employee's entire time at a company,from their first day (onboarding) to when they change jobs internally (transfers) to when they leave (offboarding). Think of it as the lifecycle of a digital identity in a company.
 
-**The Challenge:** Companies need to give new employees the right access on Day 1, update it when they change roles, and completely remove it when they leave—all while keeping detailed records for compliance.
+**The Challenge:** Companies need to give new employees the right access on Day 1, update it when they change roles, and completely remove it when they leave, all while keeping detailed records for compliance.
 
 **My Solution:** I set up the Joiner-Mover-Leaver (JML) process in Microsoft Entra ID using Peter Parker as a test employee who goes through all three phases.
 
