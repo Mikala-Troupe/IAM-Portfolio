@@ -35,7 +35,7 @@ This repository contains **8 weeks of progressive IAM labs** covering:
 |------|----------|------------------|------------|--------|
 | [Week 1](https://github.com/Mikala-Troupe/IAM-Portfolio/tree/main/Week-01-Entra-User-Lifecycle) | User & Access Management Fundamentals | Entra ID, Groups, JML Process | User provisioning, group management, lifecycle workflows | ✅ Complete |
 | [Week 2](https://github.com/Mikala-Troupe/IAM-Portfolio/tree/main/Week-02-RBAC-and-Conditional-Access) | Conditional Access Policies | Conditional Access, MFA, Zero Trust | Policy creation, risk-based access, device compliance | ✅ Complete |
-| [Week 3](Week-03-Privileged-Identity-Management/) | Privileged Identity Management (PIM) | PIM, JIT Access, Approval Workflows | Just-in-time access, role activation, privileged access governance | 📅 Planned |
+| [Week 3](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-03-Privileged-Access-Management/README.md) | Privileged Identity Management (PIM) | PIM, JIT Access, Approval Workflows | Just-in-time access, role activation, privileged access governance | ✅ Complete |
 | [Week 4](Week-04-Dynamic-Groups-RBAC/) | Dynamic Groups & RBAC | Dynamic Groups, RBAC, Access Packages | Automated group membership, custom roles, entitlement management | 📅 Planned |
 | [Week 5](Week-05-SSO-Application-Integration/) | SSO & Application Integration | SAML 2.0, OAuth 2.0, OIDC, Enterprise Apps | Application registration, SSO configuration, claims mapping | 📅 Planned |
 | [Week 6](Week-06-PowerShell-Automation-Graph-API/) | PowerShell Automation & Graph API | PowerShell, Microsoft Graph API, REST | Bulk operations, automated provisioning, API authentication | 📅 Planned |
