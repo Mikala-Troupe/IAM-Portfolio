@@ -1,4 +1,4 @@
-# Week 3 – Just-In-Time Admin Access (No More Permanent Privileges)
+# Week 3: Just-In-Time Admin Access (No More Permanent Privileges)
 
 ## What I Built
 
@@ -136,7 +136,7 @@ Risk Level: 🟢 LOW (vulnerable only during short activation windows)
 *Tony fills out why he needs admin access: "Emergency infrastructure maintenance - patching domain controllers." The system sends this to me for approval*
 
 ![Pending Approval](screenshots/12-activation-pending.png)
-*Tony's request status shows "Pending approval" - he's waiting for me to review and approve it*
+*Tony's request status shows "Pending approval", he's waiting for me to review and approve it*
 
 ---
 
@@ -154,7 +154,7 @@ Risk Level: 🟢 LOW (vulnerable only during short activation windows)
 *Tony's admin role is now active, but notice the expiration time: automatically removed in 4 hours*
 
 ![Admin Access Verified](screenshots/16-tony-admin-access-verified.png)
-*Tony can now access admin functions (like creating users) - proof that the activation worked*
+*Tony can now access admin functions (like creating users), proof that the activation worked*
 
 ### Audit Trail
 ![Audit Logs](screenshots/17-pim-audit-logs.png)
