@@ -1,4 +1,4 @@
-# 🛡️ Week 2 – Smart Security Policies That Stop Hackers Automatically
+# Week 2 – Smart Security Policies That Stop Hackers Automatically
 
 ## What I Built
 
@@ -10,7 +10,7 @@ I set up automated security controls in Microsoft Entra ID that protect user acc
 
 ---
 
-## 🎯 Why This Matters
+## Why This Matters
 
 **Security Impact:**
 - Prevents 99.9% of credential-based attacks (when hackers steal passwords)
@@ -35,7 +35,7 @@ Result: Attack blocked in 0.3 seconds. Peter gets an alert, changes his password
 
 ---
 
-## 🔐 The 4 Security Policies I Built
+## The 4 Security Policies I Built
 
 ### Policy 1: Require Multi-Factor Authentication (MFA) for Everyone
 
@@ -166,7 +166,7 @@ The AI learns from 65 trillion security signals Microsoft sees across all their 
 
 ---
 
-## 👥 Who Has What Access? (Role-Based Security)
+## Who Has What Access? (Role-Based Security)
 
 I also set up different permission levels for different job roles—following "least privilege" (only give people access to what they need).
 
@@ -182,7 +182,7 @@ If Peter's account gets hacked, the attacker can only reset passwords (annoying 
 
 ---
 
-## 📸 What It Looks Like
+## What It Looks Like
 
 ### Setting Up Role-Based Access
 <table>
@@ -285,7 +285,7 @@ All 4 policies working together - layered defense means if one fails, others sti
 
 ---
 
-## 🎓 What I Learned
+## What I Learned
 
 ### Technical Skills
 - How to design Conditional Access policies (who, what, when, where, how)
@@ -309,7 +309,7 @@ All 4 policies working together - layered defense means if one fails, others sti
 
 ---
 
-## 🏢 How Real Companies Use This
+## How Real Companies Use This
 
 **Small Business (50 employees):**
 - These exact 4 policies
@@ -339,7 +339,7 @@ All 4 policies working together - layered defense means if one fails, others sti
 
 ---
 
-## 📊 By The Numbers
+## By The Numbers
 
 **Security Improvement:**
 - 99.9% reduction in successful credential attacks
@@ -361,7 +361,7 @@ All 4 policies working together - layered defense means if one fails, others sti
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **For Non-Technical Readers:**
 - Microsoft Entra ID: Cloud-based identity and access system
@@ -381,7 +381,7 @@ All 4 policies working together - layered defense means if one fails, others sti
 
 ---
 
-## 📂 Want More Technical Details?
+## Want More Technical Details?
 
 Deep technical documentation for security architects and auditors:
 
@@ -391,7 +391,7 @@ Deep technical documentation for security architects and auditors:
 
 ---
 
-## 💼 Skills Demonstrated
+## Skills Demonstrated
 
 **Security Engineering:**
 ✅ Zero Trust architecture  
@@ -416,7 +416,7 @@ Deep technical documentation for security architects and auditors:
 
 ---
 
-## 🔗 Lab Series Progress
+## Lab Series Progress
 
 This is Week 2 of my IAM + Security Operations portfolio:
 
