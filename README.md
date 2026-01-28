@@ -24,7 +24,7 @@ I'm a cybersecurity professional focused on identity security and security opera
 
 ---
 
-## 🎯 What This Portfolio Shows
+## What This Portfolio Shows
 
 This isn't just screenshots and notes—every lab is a working implementation that solves real security problems:
 
@@ -48,7 +48,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 📂 Completed Labs
+## Completed Labs
 
 ### ✅ Week 1: User Lifecycle Management
 **What I Built:** Complete system for managing employee accounts from onboarding to offboarding
@@ -113,20 +113,20 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 🚀 In Progress
+## In Progress
 
-### 🔄 Week 4: Automated Access Reviews & Governance
+### Week 4: Automated Access Reviews & Governance
 **Coming Soon:** Periodic access certification, manager-driven reviews, automated cleanup
 
-### 📅 Week 5: PowerShell Automation
+### Week 5: PowerShell Automation
 **Coming Soon:** Bulk operations, Microsoft Graph API, custom reporting
 
-### 🌍 Week 6: Guest User & External Identity Management
+### Week 6: Guest User & External Identity Management
 **Coming Soon:** B2B collaboration, partner access, external user lifecycle
 
 ---
 
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 ### Technical Skills
 **Identity & Access Management:**
@@ -162,7 +162,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 📊 Portfolio Impact (If These Were Production Systems)
+## Portfolio Impact (If These Were Production Systems)
 
 **Security Improvements:**
 - 99.9% reduction in successful credential attacks
@@ -183,7 +183,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **Identity & Access:**
 - Microsoft Entra ID Premium P2
@@ -212,7 +212,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 📖 How to Navigate This Portfolio
+## How to Navigate This Portfolio
 
 **For Recruiters & Hiring Managers:**
 - Start with the main README for each week (accessible, business-focused)
@@ -233,7 +233,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 🎯 What Makes This Portfolio Different
+## What Makes This Portfolio Different
 
 **Not just theory:**
 - Every lab is a working implementation
@@ -257,7 +257,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 📈 Portfolio Timeline
+## Portfolio Timeline
 
 **Started:** January 2026  
 **Target Completion:** April 2026 (12 weeks total)  
@@ -272,7 +272,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 💼 What I'm Looking For
+## What I'm Looking For
 
 **Target Roles:**
 - IAM Analyst
@@ -296,7 +296,7 @@ This isn't just screenshots and notes—every lab is a working implementation th
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 I'm actively looking for **IAM Analyst** and **SOC Analyst** opportunities.
 
@@ -313,7 +313,7 @@ I'm actively looking for **IAM Analyst** and **SOC Analyst** opportunities.
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 **My Background:**
 - Bachelor of Science, Cybersecurity & Information Assurance (WGU, 2025)
@@ -328,7 +328,7 @@ I'm actively looking for **IAM Analyst** and **SOC Analyst** opportunities.
 
 ---
 
-## 🔄 Portfolio Updates
+## Portfolio Updates
 
 I update this portfolio weekly as I complete new labs. Each week builds on previous work, creating progressively more complex and realistic scenarios.
 
@@ -340,7 +340,7 @@ I update this portfolio weekly as I complete new labs. Each week builds on previ
 
 ---
 
-## 📝 Notes on This Portfolio
+## Notes on This Portfolio
 
 **Lab vs. Production:**
 These labs demonstrate concepts and configurations that would be used in production, but simplified for learning purposes. Real enterprise environments would add:
