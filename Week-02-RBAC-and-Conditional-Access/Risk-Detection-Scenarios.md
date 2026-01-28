@@ -597,7 +597,7 @@ Device: Unknown
 
 ### 3. User Verification (10 minutes)
 **Contact Process:**
-- Call user's registered phone number (not email - could be compromised)
+- Call user's registered phone number (not email, could be compromised)
 - Ask verification questions only user would know
 - **Key Question:** "Did you attempt to sign in at 2:23 PM today?"
 
