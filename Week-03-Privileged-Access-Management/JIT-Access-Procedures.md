@@ -77,7 +77,7 @@ A form appears asking why you need this access. Be specific!
 - Include ticket numbers from your helpdesk system
 - Reference specific systems/servers
 - Mention if this is scheduled or emergency
-- Be honest - auditors review these later
+- Be honest, auditors review these later
 
 ---
 
