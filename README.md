@@ -26,7 +26,7 @@ I'm a cybersecurity professional focused on identity security and security opera
 
 ## What This Portfolio Shows
 
-This isn't just screenshots and notes—every lab is a working implementation that solves real security problems:
+This isn't just screenshots and notes, every lab is a working implementation that solves real security problems:
 
 **Phase 1 - Identity & Access Management (Weeks 1-6):**
 - Managing employee accounts from hire to departure
