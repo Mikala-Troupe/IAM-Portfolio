@@ -303,10 +303,10 @@ Tony Stark approved - still IT Director, needs IT system access, provided busine
 </td>
 <td width="50%">
 
-<img src="screenshots/17-peter-denial.png" alt="Peter Denial" />
+<img src="screenshots/16c-only-tony-in-review.png" alt="Only Tony in Review" />
 
-**Denying Access**  
-Peter Parker denied - transferred to Finance in Week 1, shouldn't have IT access anymore
+**Clean Review Results**  
+Only Tony appears in the review - Peter was correctly removed from IT-Department during Week 1 transfer, demonstrating proper JML process
 
 </td>
 </tr>
@@ -323,15 +323,15 @@ Peter Parker denied - transferred to Finance in Week 1, shouldn't have IT access
 <img src="screenshots/19-review-results.png" alt="Review Results" />
 
 **Review Results Summary**  
-Shows decisions made: 1 approved (Tony), 1 denied (Peter), 100% completion rate
+Shows decisions made: 1 approved (Tony), 0 denied - clean review with no privilege creep detected
 
 </td>
 <td width="50%">
 
 <img src="screenshots/20-it-group-verified.png" alt="IT Group Verified" />
 
-**Auto-Remediation Verified**  
-IT-Department group now only shows Tony - Peter's access was automatically removed after denial
+**Auto-Remediation Works**  
+IT-Department group only shows Tony - Peter was already removed during Week 1 Mover process, proving the JML workflow worked correctly
 
 </td>
 </tr>
@@ -354,7 +354,7 @@ System recommends denying access for anyone who hasn't signed in for 30+ days - 
 <tr>
 <td width="50%">
 
-<img src="screenshots/23-review-history.png" alt="Review History" />
+<img src="screenshots/23-review-history-empty.png" alt="Review History" />
 
 **Review History**  
 Complete audit trail of all completed review cycles - who reviewed what, when, and why
@@ -632,7 +632,7 @@ This lab demonstrates the core access review workflow in a simplified environmen
 - Without automation, this would require multiple full-time employees
 
 **Why the lab approach works:**
-By building simplified versions first, I understand the fundamentals. Scaling to enterprise complexity is easier once you know how the pieces work individually. The configurations I built here are production-ready—they just need to be multiplied across more groups and users.
+By building simplified versions first, I understand the fundamentals. Scaling to enterprise complexity is easier once you know how the pieces work individually. The configurations I built here are production-ready, they just need to be multiplied across more groups and users.
 
 ---
 
