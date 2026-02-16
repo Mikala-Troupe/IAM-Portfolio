@@ -50,80 +50,19 @@ This isn't just screenshots and notes, every lab is a working implementation tha
 
 ## Completed Labs
 
-### ✅ Week 1: User Lifecycle Management
-**What I Built:** Complete system for managing employee accounts from onboarding to offboarding
+## Labs Overview
 
-**The Problem:** Companies waste hours manually creating accounts, often forget to remove access when people leave, and have no audit trail.
-
-**My Solution:** Set up the Joiner-Mover-Leaver (JML) process in Microsoft Entra ID with group-based access control.
-
-**Key Results:**
-- 96% reduction in onboarding time (5 minutes vs. 2 hours)
-- Zero leftover access after transfers (prevents privilege creep)
-- Complete audit trail for compliance
-
-**Skills:** User provisioning, group-based access, org hierarchy, offboarding procedures
-
-[View Lab Details →](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-01-Entra-User-Lifecycle/README.md)
-
----
-
-### ✅ Week 2: Security Policies & Role-Based Access Control
-**What I Built:** Automated security controls that stop hackers while letting real employees work normally
-
-**The Problem:** Hackers steal passwords constantly. Companies need protection without annoying users with constant security checks.
-
-**My Solution:** Configured 4 smart security policies including MFA, AI-powered risk detection, and role-based permissions.
-
-**Key Results:**
-- 99.9% of credential attacks blocked automatically
-- AI detects and stops suspicious logins in <1 second
-- $4.5M average breach cost prevented
-
-**The 4 Policies:**
-1. **Require MFA** - Everyone needs phone + password (not just password)
-2. **Block old insecure apps** - Old email clients that can't do MFA get blocked
-3. **Secure devices for admins** - IT admins must use company laptops with encryption
-4. **AI risk detection** - Machine learning catches impossible travel, stolen passwords, suspicious IPs
-
-**Skills:** Conditional Access, Zero Trust, AI/ML security, RBAC, defense in depth
-
-[View Lab Details →](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-02-RBAC-and-Conditional-Access/README.md)
-
----
-
-### ✅ Week 3: Just-In-Time Privileged Access
-**What I Built:** System where admins get temporary admin rights only when needed, then lose them automatically
-
-**The Problem:** Permanent admin access is risky. If someone steals an admin password, they get full control 24/7.
-
-**My Solution:** Implemented Just-In-Time (JIT) access using Privileged Identity Management (PIM). Admins activate privileges when needed, provide justification, get approval, and rights auto-expire after 4 hours.
-
-**Key Results:**
-- 95% reduction in standing admin privileges
-- Every admin action requires justification and approval
-- Attack window reduced from 24/7 to <4 hours
-- Complete audit trail of all privilege escalations
-
-**Real Impact:** If admin account is compromised while privileges are inactive = attacker gets zero admin access
-
-**Skills:** Privileged Identity Management (PIM), JIT access, approval workflows, access reviews, attack surface reduction
-
-[View Lab Details →](https://github.com/Mikala-Troupe/IAM-Portfolio/blob/main/Week-03-Privileged-Access-Management/README.md)
-
----
-
-## In Progress
-
-### Week 4: Automated Access Reviews & Governance
-**Coming Soon:** Periodic access certification, manager-driven reviews, automated cleanup
-
-### Week 5: PowerShell Automation
-**Coming Soon:** Bulk operations, Microsoft Graph API, custom reporting
-
-### Week 6: Guest User & External Identity Management
-**Coming Soon:** B2B collaboration, partner access, external user lifecycle
-
+| Week | Lab Name | Status | Key Skills | Link |
+|------|----------|--------|------------|------|
+| 1 | **User Lifecycle Management** | ✅ Complete | User provisioning, JML process, group-based access | [View Lab →](link) |
+| 2 | **Security Policies & RBAC** | ✅ Complete | Conditional Access, MFA, AI risk detection, Zero Trust | [View Lab →](link) |
+| 3 | **Just-In-Time Privileged Access** | ✅ Complete | PIM, JIT access, approval workflows, attack surface reduction | [View Lab →](link) |
+| 4 | **Access Reviews & Governance** | ✅ Complete | Access certification, manager attestation, privilege creep prevention | [View Lab →](link) |
+| 5 | **Dynamic Groups & RBAC Automation** | 📅 Next | Dynamic membership rules, nested groups, Administrative Units | Coming Soon |
+| 6 | **SSO & App Integration** | 📅 Planned | SAML, OAuth 2.0, enterprise app integration | Coming Soon |
+| 7 | **PowerShell Automation & Graph API** | 📅 Planned | Bulk operations, API scripting, custom reporting | Coming Soon |
+| 8 | **Hybrid Identity (AD + Entra ID)** | 📅 Planned | AD Connect, sync troubleshooting, hybrid join | Coming Soon |
+| 9 | **Security Monitoring & IAM Response** | 📅 Planned | Sign-in log analysis, incident response, KQL queries | Coming Soon |
 ---
 
 ## Skills Demonstrated
@@ -359,7 +298,3 @@ By building simplified versions first, I understand the fundamentals. Scaling to
 **Thanks for checking out my portfolio!** Every lab here represents real learning, real building, and real skills I can bring to a security team.
 
 ---
-
-*Last Updated: January 2026*  
-*Portfolio Status: Active Development*  
-*Next Lab: Week 4 - Access Reviews & Governance*
