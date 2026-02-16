@@ -357,7 +357,8 @@ System recommends denying access for anyone who hasn't signed in for 30+ days - 
 <img src="screenshots/23-review-history-empty.png" alt="Review History" />
 
 **Review History**  
-Complete audit trail of all completed review cycles - who reviewed what, when, and why
+Complete audit trail of all completed review cycles - who reviewed what, when, and why.
+Empty in this lab (reviews still in progress) - in production, this shows complete audit trail of all completed review cycles with decisions, approvals, and remediation actions
 
 </td>
 <td width="50%">
